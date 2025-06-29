@@ -1,0 +1,26 @@
+{
+  "name": "Tingting - Digitální věrnostní karta",
+  "short_name": "Tingting",
+  "description": "Digitální věrnostní karta pro váš podnik. Kupóny, razítkovací karta, odměny za body a více.",
+  "icons": [
+    {
+      "src": "/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#2c016d",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "start_url": "/",
+  "scope": "/",
+  "orientation": "portrait-primary",
+  "categories": ["business", "productivity", "finance"],
+  "lang": "cs",
+  "dir": "ltr"
+}

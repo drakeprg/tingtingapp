@@ -1,0 +1,26 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://tingting.cz/sitemap.xml
+
+# Crawl-delay for all bots
+Crawl-delay: 1
+
+# Block access to admin areas
+Disallow: /admin/
+Disallow: /api/
+Disallow: /private/
+
+# Allow access to important files
+Allow: /css/
+Allow: /js/
+Allow: /images/
+Allow: /*.css$
+Allow: /*.js$
+Allow: /*.png$
+Allow: /*.jpg$
+Allow: /*.jpeg$
+Allow: /*.gif$
+Allow: /*.svg$
+Allow: /*.webp$

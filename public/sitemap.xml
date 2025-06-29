@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://tingting.cz</loc>
+    <lastmod>2024-01-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://tingting.cz" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://tingting.cz/vi" />
+  </url>
+  <url>
+    <loc>https://tingting.cz/vi</loc>
+    <lastmod>2024-01-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://tingting.cz" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://tingting.cz/vi" />
+  </url>
+  <url>
+    <loc>https://tingting.cz/features</loc>
+    <lastmod>2024-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://tingting.cz/pricing</loc>
+    <lastmod>2024-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://tingting.cz/dashboard</loc>
+    <lastmod>2024-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://tingting.cz/contact</loc>
+    <lastmod>2024-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://tingting.cz/login</loc>
+    <lastmod>2024-01-01</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://tingting.cz/register</loc>
+    <lastmod>2024-01-01</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+</urlset>
