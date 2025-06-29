@@ -38,10 +38,10 @@ const YearlyOffer = () => {
               </div>
 
               {/* Right Side - macOS Window with Website Screenshot */}
-              <div className="relative h-full min-h-[500px] flex items-center justify-center p-8">
+              <div className="relative h-full min-h-[500px] flex items-end justify-center p-8 pb-0">
                 <div className="relative w-full max-w-lg">
-                  {/* macOS Window Frame - Straight, no rotation */}
-                  <div className="bg-white rounded-lg shadow-2xl overflow-hidden hover:scale-105 transition-transform duration-500">
+                  {/* macOS Window Frame - Straight, positioned from bottom */}
+                  <div className="bg-white rounded-t-lg shadow-2xl overflow-hidden hover:scale-105 transition-transform duration-500">
                     {/* macOS Title Bar */}
                     <div className="bg-gray-100 px-4 py-3 flex items-center space-x-2 border-b border-gray-200">
                       {/* Traffic Light Buttons */}
@@ -59,14 +59,14 @@ const YearlyOffer = () => {
                       </div>
                     </div>
                     
-                    {/* Website Screenshot Container */}
-                    <div className="relative h-80 overflow-hidden">
-                      {/* Website Screenshot - extends beyond the frame */}
-                      <div className="absolute inset-0 -bottom-20">
+                    {/* Website Screenshot Container - extends beyond frame */}
+                    <div className="relative h-96 overflow-hidden">
+                      {/* Website Screenshot - positioned from bottom, extends beyond */}
+                      <div className="absolute inset-0 bottom-0">
                         <img 
                           src="/Screenshot 2025-06-29 at 11.59.06.png" 
                           alt="Sakuri Restaurant Website"
-                          className="w-full h-full object-cover object-top"
+                          className="w-full h-full object-cover object-bottom scale-110"
                         />
                       </div>
                       
@@ -99,7 +99,7 @@ const YearlyOffer = () => {
                     </div>
                   </div>
                   
-                  <div className="absolute -right-4 bottom-8 bg-white/10 backdrop-blur-sm rounded-lg p-3 text-white">
+                  <div className="absolute -right-4 bottom-20 bg-white/10 backdrop-blur-sm rounded-lg p-3 text-white">
                     <div className="flex items-center space-x-2 text-sm">
                       <div className="w-2 h-2 bg-purple-400 rounded-full"></div>
                       <span>{t.fastLoading}</span>
