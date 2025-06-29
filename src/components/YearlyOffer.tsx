@@ -8,18 +8,18 @@ const YearlyOffer = () => {
   const t = useTranslation(language);
 
   return (
-    <section className="py-20 bg-black">
+    <section className="py-20 bg-gray-50 dark:bg-gray-900">
       <div className="container mx-auto px-4">
         <div className="max-w-7xl mx-auto">
           {/* Header */}
           <div className="text-center mb-16">
-            <h1 className="text-4xl md:text-6xl font-semibold text-white mb-6 leading-tight">
+            <h1 className="text-4xl md:text-6xl font-semibold text-gray-900 dark:text-white mb-6 leading-tight">
               {t.yearlyOfferTitle}
             </h1>
           </div>
 
-          {/* Main Content Card - Apple Style */}
-          <div className="relative overflow-hidden rounded-3xl bg-gradient-to-r from-gray-900 via-gray-800 to-gray-700 shadow-2xl">
+          {/* Main Content Card - Black Background */}
+          <div className="relative overflow-hidden rounded-3xl bg-black shadow-2xl">
             <div className="grid lg:grid-cols-2 items-center min-h-[500px]">
               {/* Left Side - Content */}
               <div className="relative z-10 p-8 text-white flex flex-col justify-center lg:col-span-1">
