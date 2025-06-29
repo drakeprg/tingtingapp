@@ -11,7 +11,7 @@ const Pricing = () => {
 
   const plans = [
     {
-      name: 'FREE',
+      name: 'Forever Free',
       price: t.free,
       period: '',
       description: t.freeDesc,
@@ -20,7 +20,7 @@ const Pricing = () => {
       note: language === 'cs' ? 'Při registraci nezadáváte platební kartu.' : 'Khi đăng ký không cần nhập thông tin thẻ thanh toán.'
     },
     {
-      name: language === 'cs' ? 'EASY Podnik' : 'GÓI EASY',
+      name: language === 'cs' ? 'Premium' : 'Gói Premium',
       priceMonthly: '490 Kč',
       priceYearly: '390 Kč',
       period: language === 'cs' ? 'měsíčně' : 'hàng tháng',
@@ -31,7 +31,7 @@ const Pricing = () => {
       popular: true
     },
     {
-      name: language === 'cs' ? 'PROFI Podnik' : 'GÓI PROFI',
+      name: language === 'cs' ? 'Exclusive' : 'Gói Exclusive',
       price: t.contactUs,
       period: '',
       description: t.proDesc,
