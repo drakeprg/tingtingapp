@@ -8,18 +8,18 @@ const YearlyOffer = () => {
   const t = useTranslation(language);
 
   return (
-    <section className="py-20 bg-gray-50 dark:bg-gray-900">
+    <section className="py-20 bg-black">
       <div className="container mx-auto px-4">
         <div className="max-w-7xl mx-auto">
           {/* Header */}
           <div className="text-center mb-16">
-            <h1 className="text-4xl md:text-6xl font-semibold text-gray-900 dark:text-white mb-6 leading-tight">
+            <h1 className="text-4xl md:text-6xl font-semibold text-white mb-6 leading-tight">
               {t.yearlyOfferTitle}
             </h1>
           </div>
 
           {/* Main Content Card - Apple Style */}
-          <div className="relative overflow-hidden rounded-3xl bg-gradient-to-r from-gray-900 via-gray-800 to-black shadow-2xl">
+          <div className="relative overflow-hidden rounded-3xl bg-gradient-to-r from-gray-900 via-gray-800 to-gray-700 shadow-2xl">
             <div className="grid lg:grid-cols-2 items-center min-h-[500px]">
               {/* Left Side - Content */}
               <div className="relative z-10 p-8 text-white flex flex-col justify-center lg:col-span-1">
@@ -40,8 +40,8 @@ const YearlyOffer = () => {
               {/* Right Side - macOS Window with Website Screenshot */}
               <div className="relative h-full min-h-[500px] flex items-center justify-center p-8">
                 <div className="relative w-full max-w-lg">
-                  {/* macOS Window Frame */}
-                  <div className="bg-white rounded-lg shadow-2xl overflow-hidden transform hover:scale-105 transition-transform duration-500">
+                  {/* macOS Window Frame with Angle */}
+                  <div className="bg-white rounded-lg shadow-2xl overflow-hidden transform rotate-3 hover:rotate-1 transition-transform duration-500 hover:scale-105">
                     {/* macOS Title Bar */}
                     <div className="bg-gray-100 px-4 py-3 flex items-center space-x-2 border-b border-gray-200">
                       {/* Traffic Light Buttons */}
@@ -83,21 +83,21 @@ const YearlyOffer = () => {
                   </div>
 
                   {/* Floating Feature Badges */}
-                  <div className="absolute -right-4 top-8 bg-white/10 backdrop-blur-sm rounded-lg p-3 text-white">
+                  <div className="absolute -right-4 top-8 bg-white/10 backdrop-blur-sm rounded-lg p-3 text-white transform rotate-2">
                     <div className="flex items-center space-x-2 text-sm">
                       <div className="w-2 h-2 bg-green-400 rounded-full"></div>
                       <span>{t.responsiveDesign}</span>
                     </div>
                   </div>
                   
-                  <div className="absolute -left-4 top-1/2 bg-white/10 backdrop-blur-sm rounded-lg p-3 text-white">
+                  <div className="absolute -left-4 top-1/2 bg-white/10 backdrop-blur-sm rounded-lg p-3 text-white transform -rotate-1">
                     <div className="flex items-center space-x-2 text-sm">
                       <div className="w-2 h-2 bg-blue-400 rounded-full"></div>
                       <span>{t.seoOptimization}</span>
                     </div>
                   </div>
                   
-                  <div className="absolute -right-4 bottom-8 bg-white/10 backdrop-blur-sm rounded-lg p-3 text-white">
+                  <div className="absolute -right-4 bottom-8 bg-white/10 backdrop-blur-sm rounded-lg p-3 text-white transform rotate-1">
                     <div className="flex items-center space-x-2 text-sm">
                       <div className="w-2 h-2 bg-purple-400 rounded-full"></div>
                       <span>{t.fastLoading}</span>
@@ -106,14 +106,14 @@ const YearlyOffer = () => {
                 </div>
 
                 {/* Background Elements */}
-                <div className="absolute top-10 right-10 w-32 h-32 bg-blue-500/10 rounded-full blur-xl"></div>
-                <div className="absolute bottom-10 left-10 w-24 h-24 bg-christalle/10 rounded-full blur-xl"></div>
+                <div className="absolute top-10 right-10 w-32 h-32 bg-christalle/10 rounded-full blur-xl"></div>
+                <div className="absolute bottom-10 left-10 w-24 h-24 bg-viking/10 rounded-full blur-xl"></div>
               </div>
             </div>
 
             {/* Decorative Elements */}
-            <div className="absolute top-0 right-0 w-64 h-64 bg-gradient-to-bl from-blue-500/10 to-transparent rounded-full blur-3xl"></div>
-            <div className="absolute bottom-0 left-0 w-48 h-48 bg-gradient-to-tr from-christalle/10 to-transparent rounded-full blur-3xl"></div>
+            <div className="absolute top-0 right-0 w-64 h-64 bg-gradient-to-bl from-christalle/10 to-transparent rounded-full blur-3xl"></div>
+            <div className="absolute bottom-0 left-0 w-48 h-48 bg-gradient-to-tr from-viking/10 to-transparent rounded-full blur-3xl"></div>
           </div>
         </div>
       </div>
