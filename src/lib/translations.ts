@@ -188,15 +188,15 @@ export const translations = {
     faqSubtitle: 'Na všechny dotazy jsme vám k dispozici na emailové adrese',
     faqQuestions: [
       {
-        question: 'Pro koho je kartička určena?',
-        answer: 'Kartička je určena pro všechny typy podniků, které chtějí budovat věrnost zákazníků - kavárny, restaurace, fitness centra, kadeřnictví, obchody a mnoho dalších. Funguje pro malé rodinné podniky i velké řetězce.'
+        question: 'Pro koho je tingting určen?',
+        answer: 'tingting je určen pro všechny typy podniků, které chtějí budovat věrnost zákazníků - kavárny, restaurace, fitness centra, kadeřnictví, obchody a mnoho dalších. Funguje pro malé rodinné podniky i velké řetězce.'
       },
       {
-        question: 'Budu muset pro používání kartičky kupovat nějaký hardware?',
-        answer: 'Ne, nepotřebujete žádný speciální hardware. Kartička funguje s běžnými smartphony a tablety. Pokud máte pokladní systém, můžeme ho integrovat, ale není to nutné pro základní fungování.'
+        question: 'Budu muset pro používání tingting kupovat nějaký hardware?',
+        answer: 'Ne, nepotřebujete žádný speciální hardware. tingting funguje s běžnými smartphony a tablety. Pokud máte pokladní systém, můžeme ho integrovat, ale není to nutné pro základní fungování.'
       },
       {
-        question: 'Jak si můžu Kartičku otestovat?',
+        question: 'Jak si můžu tingting otestovat?',
         answer: 'Můžete si vytvořit bezplatný účet a vyzkoušet všechny funkce 30 dní zdarma. Není potřeba zadávat platební údaje. Po registraci vám pomůžeme s nastavením a ukážeme všechny možnosti.'
       },
       {
@@ -204,8 +204,8 @@ export const translations = {
         answer: 'Integrace probíhá přes API a umožňuje automatické přidávání razítek, bodů nebo slev přímo při platbě. Podporujeme Dotykačku, Fusion, KasaFiK a další systémy. Nastavení trvá obvykle jen několik minut.'
       },
       {
-        question: 'Mohu kartičku používat offline?',
-        answer: 'Ano, základní funkce kartičky fungují i offline. Zákazníci mohou zobrazit své karty a razítka i bez internetového připojení. Data se synchronizují automaticky, jakmile se připojení obnoví.'
+        question: 'Mohu tingting používat offline?',
+        answer: 'Ano, základní funkce tingting fungují i offline. Zákazníci mohou zobrazit své karty a razítka i bez internetového připojení. Data se synchronizují automaticky, jakmile se připojení obnoví.'
       },
       {
         question: 'Jak jsou chráněna data zákazníků?',
