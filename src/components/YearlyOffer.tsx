@@ -32,7 +32,7 @@ const YearlyOffer = () => {
                   </div>
                 </div>
 
-                <Button className="bg-christalle hover:bg-christalle/90 text-white px-8 py-4 rounded-full text-lg font-medium transition-all duration-200 hover:shadow-lg">
+                <Button className="bg-christalle hover:bg-christalle/90 text-white px-6 py-3 rounded-full text-base font-medium transition-all duration-200 hover:shadow-lg w-fit">
                   {t.orderNow}
                 </Button>
               </div>
