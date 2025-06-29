@@ -12,10 +12,10 @@ const Footer = () => {
     <footer className="bg-white dark:bg-black py-20 border-t border-gray-200 dark:border-gray-800">
       <div className="container mx-auto px-4">
         <div className="max-w-6xl mx-auto">
-          <div className="grid md:grid-cols-4 gap-12 mb-16">
+          <div className="grid md:grid-cols-4 gap-12 mb-16 text-center md:text-left">
             {/* Company Info */}
             <div className="space-y-6">
-              <div className="flex items-center space-x-3">
+              <div className="flex items-center space-x-3 justify-center md:justify-start">
                 <div className="w-8 h-8 flex items-center justify-center">
                   <svg width="32" height="32" viewBox="0 0 177 177" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g clipPath="url(#clip0_3_42)">
@@ -35,15 +35,15 @@ const Footer = () => {
               </p>
               
               <div className="space-y-3">
-                <div className="flex items-center space-x-3">
+                <div className="flex items-center space-x-3 justify-center md:justify-start">
                   <Mail className="w-4 h-4 text-gray-400" />
                   <span className="text-gray-600 dark:text-gray-400">info@tingting.cz</span>
                 </div>
-                <div className="flex items-center space-x-3">
+                <div className="flex items-center space-x-3 justify-center md:justify-start">
                   <Phone className="w-4 h-4 text-gray-400" />
                   <span className="text-gray-600 dark:text-gray-400">+420 123 456 789</span>
                 </div>
-                <div className="flex items-center space-x-3">
+                <div className="flex items-center space-x-3 justify-center md:justify-start">
                   <MapPin className="w-4 h-4 text-gray-400" />
                   <span className="text-gray-600 dark:text-gray-400">Praha, Česká republika</span>
                 </div>
@@ -95,12 +95,12 @@ const Footer = () => {
 
           {/* Bottom */}
           <div className="border-t border-gray-200 dark:border-gray-800 pt-8">
-            <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
+            <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0 text-center md:text-left">
               <div className="text-gray-600 dark:text-gray-400">
                 © {currentYear} tingting s.r.o. {t.allRightsReserved}
               </div>
               
-              <div className="flex space-x-6">
+              <div className="flex flex-col sm:flex-row space-y-2 sm:space-y-0 sm:space-x-6">
                 <a href="#" className="text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white text-sm">
                   {t.privacyPolicy}
                 </a>
