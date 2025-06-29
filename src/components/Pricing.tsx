@@ -51,7 +51,7 @@ const Pricing = () => {
     { name: language === 'cs' ? 'Kupóny' : 'Phiếu giảm giá', tingting: true, bonous: false, stammgast: false, rewardly: false },
     { name: language === 'cs' ? 'Odměny za body' : 'Thưởng điểm', tingting: true, bonous: false, stammgast: false, rewardly: false },
     { name: language === 'cs' ? 'Push notifikace' : 'Thông báo đẩy', tingting: true, bonous: false, stammgast: false, rewardly: false },
-    { name: language === 'cs' ? 'České skupiny' : 'Nhóm Việt Nam', tingting: true, bonous: false, stammgast: false, rewardly: false },
+    { name: language === 'cs' ? 'České skupiny' : 'Hỗ trợ bởi người Việt', tingting: true, bonous: false, stammgast: false, rewardly: false },
     { name: language === 'cs' ? 'Kredity' : 'Tín dụng', tingting: t.comingSoon, bonous: false, stammgast: false, rewardly: false },
     { name: 'Vouchery', tingting: t.comingSoon, bonous: false, stammgast: false, rewardly: false },
     { name: language === 'cs' ? 'Rezervace' : 'Đặt chỗ', tingting: true, bonous: false, stammgast: false, rewardly: false },
@@ -63,6 +63,8 @@ const Pricing = () => {
     { name: 'POS Fusion', tingting: true, bonous: false, stammgast: false, rewardly: false },
     { name: 'POS KasaFiK', tingting: true, bonous: false, stammgast: false, rewardly: false },
     { name: 'POS Storyous', tingting: t.comingSoon, bonous: false, stammgast: false, rewardly: false },
+    { name: 'POS IProSoft', tingting: t.comingSoon, bonous: false, stammgast: false, rewardly: false },
+    { name: 'POS GoKasa', tingting: t.comingSoon, bonous: false, stammgast: false, rewardly: false },
     { name: language === 'cs' ? 'Podpora v češtině 24/7' : 'Hỗ trợ tiếng Việt 24/7', tingting: true, bonous: false, stammgast: '?', rewardly: false },
     { name: language === 'cs' ? 'Cena měsíčně' : 'Giá hàng tháng', tingting: isYearly ? 'od 390 Kč' : 'od 490 Kč', bonous: 'od 500 Kč *', stammgast: 'od 499 Kč', rewardly: 'od 499 Kč' }
   ];
