@@ -40,8 +40,8 @@ const YearlyOffer = () => {
               {/* Right Side - macOS Window with Website Screenshot */}
               <div className="relative h-full min-h-[500px] flex items-center justify-center p-8">
                 <div className="relative w-full max-w-lg">
-                  {/* macOS Window Frame with Angle */}
-                  <div className="bg-white rounded-lg shadow-2xl overflow-hidden transform rotate-3 hover:rotate-1 transition-transform duration-500 hover:scale-105">
+                  {/* macOS Window Frame - Straight, no rotation */}
+                  <div className="bg-white rounded-lg shadow-2xl overflow-hidden hover:scale-105 transition-transform duration-500">
                     {/* macOS Title Bar */}
                     <div className="bg-gray-100 px-4 py-3 flex items-center space-x-2 border-b border-gray-200">
                       {/* Traffic Light Buttons */}
@@ -59,14 +59,16 @@ const YearlyOffer = () => {
                       </div>
                     </div>
                     
-                    {/* Website Screenshot */}
-                    <div className="relative">
-                      <img 
-                        src="/Screenshot 2025-06-29 at 11.59.06.png" 
-                        alt="Sakuri Restaurant Website"
-                        className="w-full h-auto object-cover"
-                        style={{ aspectRatio: '16/10' }}
-                      />
+                    {/* Website Screenshot Container */}
+                    <div className="relative h-80 overflow-hidden">
+                      {/* Website Screenshot - extends beyond the frame */}
+                      <div className="absolute inset-0 -bottom-20">
+                        <img 
+                          src="/Screenshot 2025-06-29 at 11.59.06.png" 
+                          alt="Sakuri Restaurant Website"
+                          className="w-full h-full object-cover object-top"
+                        />
+                      </div>
                       
                       {/* Overlay with website info */}
                       <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 hover:opacity-100 transition-opacity duration-300">
@@ -83,21 +85,21 @@ const YearlyOffer = () => {
                   </div>
 
                   {/* Floating Feature Badges */}
-                  <div className="absolute -right-4 top-8 bg-white/10 backdrop-blur-sm rounded-lg p-3 text-white transform rotate-2">
+                  <div className="absolute -right-4 top-8 bg-white/10 backdrop-blur-sm rounded-lg p-3 text-white">
                     <div className="flex items-center space-x-2 text-sm">
                       <div className="w-2 h-2 bg-green-400 rounded-full"></div>
                       <span>{t.responsiveDesign}</span>
                     </div>
                   </div>
                   
-                  <div className="absolute -left-4 top-1/2 bg-white/10 backdrop-blur-sm rounded-lg p-3 text-white transform -rotate-1">
+                  <div className="absolute -left-4 top-1/2 bg-white/10 backdrop-blur-sm rounded-lg p-3 text-white">
                     <div className="flex items-center space-x-2 text-sm">
                       <div className="w-2 h-2 bg-blue-400 rounded-full"></div>
                       <span>{t.seoOptimization}</span>
                     </div>
                   </div>
                   
-                  <div className="absolute -right-4 bottom-8 bg-white/10 backdrop-blur-sm rounded-lg p-3 text-white transform rotate-1">
+                  <div className="absolute -right-4 bottom-8 bg-white/10 backdrop-blur-sm rounded-lg p-3 text-white">
                     <div className="flex items-center space-x-2 text-sm">
                       <div className="w-2 h-2 bg-purple-400 rounded-full"></div>
                       <span>{t.fastLoading}</span>
