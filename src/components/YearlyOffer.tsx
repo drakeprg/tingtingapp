@@ -40,8 +40,8 @@ const YearlyOffer = () => {
               {/* Right Side - macOS Window with Website Screenshot */}
               <div className="relative h-full min-h-[500px] flex items-end justify-center p-8 pb-0">
                 <div className="relative w-full max-w-lg">
-                  {/* macOS Window Frame - Straight, positioned from bottom */}
-                  <div className="bg-white rounded-t-lg shadow-2xl overflow-hidden hover:scale-105 transition-transform duration-500">
+                  {/* macOS Window Frame - Straight, positioned from bottom, moved down more */}
+                  <div className="bg-white rounded-t-lg shadow-2xl overflow-hidden hover:scale-105 transition-transform duration-500 translate-y-8">
                     {/* macOS Title Bar */}
                     <div className="bg-gray-100 px-4 py-3 flex items-center space-x-2 border-b border-gray-200">
                       {/* Traffic Light Buttons */}
@@ -66,7 +66,7 @@ const YearlyOffer = () => {
                         <img 
                           src="/Screenshot 2025-06-29 at 11.59.06.png" 
                           alt="Sakuri Restaurant Website"
-                          className="w-full h-full object-cover object-bottom scale-110"
+                          className="w-full h-full object-cover object-bottom scale-125"
                         />
                       </div>
                       
