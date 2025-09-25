@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+5import React, { useState } from 'react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { useLanguage } from '@/hooks/use-language';
@@ -66,7 +66,7 @@ const Pricing = () => {
     { name: 'POS IProSoft', tingting: t.comingSoon, bonous: false, stammgast: false, rewardly: false },
     { name: 'POS GoKasa', tingting: t.comingSoon, bonous: false, stammgast: false, rewardly: false },
     { name: language === 'cs' ? 'Podpora v češtině 24/7' : 'Hỗ trợ tiếng Việt 24/7', tingting: true, bonous: false, stammgast: '?', rewardly: false },
-    { name: language === 'cs' ? 'Cena měsíčně' : 'Giá hàng tháng', tingting: isYearly ? 'od 599 Kč' : 'od 490 Kč', bonous: 'od 500 Kč *', stammgast: 'od 499 Kč', rewardly: 'od 499 Kč' }
+    { name: language === 'cs' ? 'Cena měsíčně' : 'Giá hàng tháng', tingting: isYearly ? 'od 599 Kč' : 'od 690 Kč', bonous: 'od 749 Kč *', stammgast: 'od 599 Kč', rewardly: 'od 699 Kč' }
   ];
 
   const getPlanPrice = (plan: any) => {
