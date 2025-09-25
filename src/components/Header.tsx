@@ -69,6 +69,22 @@ const Header: React.FC<HeaderProps> = ({ onNavigate }) => {
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
+            {/* Contact Info */}
+            <div className="flex items-center space-x-6 mr-4">
+              <a 
+                href="mailto:info@tingting.cz" 
+                className="text-christalle dark:text-viking hover:underline font-medium text-sm"
+              >
+                info@tingting.cz
+              </a>
+              <a 
+                href="tel:+420601380000" 
+                className="text-christalle dark:text-viking hover:underline font-medium text-sm"
+              >
+                +420 601 380 000
+              </a>
+            </div>
+            
             <Button 
               variant="ghost"
               onClick={() => scrollToSection('home')}

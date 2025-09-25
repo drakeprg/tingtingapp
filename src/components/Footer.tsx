@@ -37,11 +37,11 @@ const Footer = () => {
               <div className="space-y-3">
                 <div className="flex items-center space-x-3 justify-center md:justify-start">
                   <Mail className="w-4 h-4 text-gray-400" />
-                  <a href="mailto:info@tingting.cz" className="text-christalle dark:text-viking hover:underline font-medium">info@tingting.cz</a>
+                  <span className="text-gray-600 dark:text-gray-400">info@tingting.cz</span>
                 </div>
                 <div className="flex items-center space-x-3 justify-center md:justify-start">
                   <Phone className="w-4 h-4 text-gray-400" />
-                  <a href="tel:+420601380000" className="text-christalle dark:text-viking hover:underline font-medium">+420 601 380 000</a>
+                  <span className="text-gray-600 dark:text-gray-400">+420 601 380 000</span>
                 </div>
                 <div className="flex items-center space-x-3 justify-center md:justify-start">
                   <MapPin className="w-4 h-4 text-gray-400" />
