@@ -5,9 +5,9 @@ type Language = 'cs' | 'vi'
 export function useLanguage() {
   const [language, setLanguage] = useState<Language>(() => {
     if (typeof window !== 'undefined') {
-      return (localStorage.getItem('language') as Language) || 'cs'
+      return (localStorage.getItem('language') as Language) || 'vi'
     }
-    return 'cs'
+    return 'vi'
   })
 
   const setLanguageValue = (language: Language) => {
