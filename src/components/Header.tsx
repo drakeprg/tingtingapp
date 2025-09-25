@@ -70,19 +70,26 @@ const Header: React.FC<HeaderProps> = ({ onNavigate }) => {
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
             {/* Contact Info */}
-            <div className="flex items-center space-x-6 mr-4">
+            <div className="flex items-center space-x-8 mr-6">
+              <div className="flex items-center space-x-2 group">
+                <div className="w-2 h-2 bg-green-500 rounded-full animate-pulse"></div>
               <a 
                 href="mailto:info@tingting.cz" 
-                className="text-christalle dark:text-viking hover:underline font-medium text-sm"
+                  className="text-christalle dark:text-viking hover:text-christalle/80 dark:hover:text-viking/80 font-semibold text-sm tracking-wide transition-all duration-200 hover:scale-105"
               >
                 info@tingting.cz
               </a>
+              </div>
+              <div className="w-px h-4 bg-gray-300 dark:bg-gray-600"></div>
+              <div className="flex items-center space-x-2 group">
+                <div className="w-2 h-2 bg-blue-500 rounded-full animate-pulse"></div>
               <a 
                 href="tel:+420601380000" 
-                className="text-christalle dark:text-viking hover:underline font-medium text-sm"
+                  className="text-christalle dark:text-viking hover:text-christalle/80 dark:hover:text-viking/80 font-semibold text-sm tracking-wide transition-all duration-200 hover:scale-105"
               >
                 +420 601 380 000
               </a>
+              </div>
             </div>
             
             <Button 
