@@ -21,8 +21,8 @@ const Pricing = () => {
     },
     {
       name: language === 'cs' ? 'Premium' : 'Gói Premium',
-      priceMonthly: '490 Kč',
-      priceYearly: '390 Kč',
+      priceMonthly: '799 Kč',
+      priceYearly: '599 Kč',
       period: language === 'cs' ? 'měsíčně' : 'hàng tháng',
       description: t.easyDesc,
       features: t.easyFeatures,
@@ -66,7 +66,7 @@ const Pricing = () => {
     { name: 'POS IProSoft', tingting: t.comingSoon, bonous: false, stammgast: false, rewardly: false },
     { name: 'POS GoKasa', tingting: t.comingSoon, bonous: false, stammgast: false, rewardly: false },
     { name: language === 'cs' ? 'Podpora v češtině 24/7' : 'Hỗ trợ tiếng Việt 24/7', tingting: true, bonous: false, stammgast: '?', rewardly: false },
-    { name: language === 'cs' ? 'Cena měsíčně' : 'Giá hàng tháng', tingting: isYearly ? 'od 390 Kč' : 'od 490 Kč', bonous: 'od 500 Kč *', stammgast: 'od 499 Kč', rewardly: 'od 499 Kč' }
+    { name: language === 'cs' ? 'Cena měsíčně' : 'Giá hàng tháng', tingting: isYearly ? 'od 599 Kč' : 'od 490 Kč', bonous: 'od 500 Kč *', stammgast: 'od 499 Kč', rewardly: 'od 499 Kč' }
   ];
 
   const getPlanPrice = (plan: any) => {
