@@ -99,19 +99,6 @@ const Header: React.FC<HeaderProps> = ({ onNavigate }) => {
             </Button>
             <LanguageToggle />
             <ThemeToggle />
-            <Button 
-              variant="ghost"
-              onClick={() => handleNavigation('login')}
-              className="text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white"
-            >
-              {t.login}
-            </Button>
-            <Button 
-              onClick={() => handleNavigation('registration')}
-              className="bg-christalle hover:bg-christalle/90 text-white rounded-full px-6"
-            >
-              {t.register}
-            </Button>
           </nav>
 
           {/* Mobile Menu Button */}
@@ -159,19 +146,6 @@ const Header: React.FC<HeaderProps> = ({ onNavigate }) => {
                 className="justify-start"
               >
                 {t.contact}
-              </Button>
-              <Button 
-                variant="ghost"
-                onClick={() => handleNavigation('login')}
-                className="justify-start"
-              >
-                {t.login}
-              </Button>
-              <Button 
-                onClick={() => handleNavigation('registration')}
-                className="bg-christalle hover:bg-christalle/90 text-white rounded-full mt-4"
-              >
-                {t.register}
               </Button>
             </nav>
           </div>
