@@ -167,11 +167,6 @@ const Testimonials = () => {
 
                   {/* Author Info */}
                   <div className="flex items-center space-x-4">
-                    <img 
-                      src={testimonial.avatar} 
-                      alt={testimonial.name}
-                      className="w-14 h-14 rounded-full object-cover"
-                    />
                     <div>
                       <div className="font-semibold text-gray-900 dark:text-white text-lg">
                         {testimonial.name}
