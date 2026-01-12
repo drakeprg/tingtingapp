@@ -32,7 +32,7 @@ const AppDownload = () => {
               
               {/* App Store Button */}
               <a 
-                href="#" 
+                href="https://apps.apple.com/cz/app/tingting/id6748128416?l=cs" 
                 className="inline-flex items-center space-x-4 bg-black dark:bg-white text-white dark:text-black px-8 py-4 rounded-2xl hover:bg-gray-800 dark:hover:bg-gray-100 transition-colors"
               >
                 <Apple className="w-8 h-8" />
@@ -54,7 +54,7 @@ const AppDownload = () => {
               
               {/* Google Play Button */}
               <a 
-                href="#" 
+                href="https://play.google.com/store/apps/details?id=com.karticka.tingting" 
                 className="inline-flex items-center space-x-4 bg-gradient-to-r from-green-500 to-blue-600 text-white px-8 py-4 rounded-2xl hover:from-green-600 hover:to-blue-700 transition-all"
               >
                 <div className="w-8 h-8 bg-white rounded-lg flex items-center justify-center">
